@@ -1,0 +1,9 @@
+[project]
+name = "reputation-api-worker"
+version = "0.1.0"
+description = "Worker for Reputation API"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
